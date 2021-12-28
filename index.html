@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Chingu Trivia</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="logo">CHINGU TRIVIA</div>
+        <nav>
+          <a href="#">Home</a>
+          <a href="#">Questions</a>
+        </nav>
+      </header>
+
+      <section class="question-board">
+        <div class="title">
+          Questions <span class="question-number">1</span> / 10
+        </div>
+        <p class="question">
+          Which HTML5 element should contain important links for navigating a
+          website?
+        </p>
+        <div class="choices">
+          <button class="choice">&lt;li&gt;</button>
+          <button class="choice">&lt;ul&gt;</button>
+          <button class="choice">&lt;header&gt;</button>
+          <button class="choice">&lt;nav&gt;</button>
+        </div>
+        <div class="result">
+          <p class="extra-space"></p>
+          <p class="correct hidden">Well Done! Correct!</p>
+          <p class="wrong hidden">Nice Try! Incorrect!</p>
+          <button class="next hidden">NEXT</button>
+        </div>
+      </section>
+    </div>
+
+    <div class="report hidden">
+      <button class="close-report">&times;</button>
+      <p>Your score is <span class="score">0</span> / 10!</p>
+    </div>
+    <div class="overlay hidden"></div>
+    <script src="script.js"></script>
+  </body>
+</html>

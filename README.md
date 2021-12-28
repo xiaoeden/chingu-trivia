@@ -1,6 +1,6 @@
 # chingu-trivia
 
-Note: most of the documentation is taken from the Chingu Trivia project repo.
+Note: most of the documentation is taken from the [Chingu Trivia](https://github.com/chingu-voyages/soloproject-tier1-chingu-trivia) project repo.
 
 ## Overview 
 

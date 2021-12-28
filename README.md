@@ -26,7 +26,7 @@ This Chingu Trivia webpage allows users to answer 10 multiple-choice questions a
 - [ ] The quiz spans 10 questions taken from the 'assets' folder from the original repo
 - [ ] The page does not reload
 
-*Upon Load:*
+## How to use
 
 - [ ] The first question is loaded, on top of the question the user's place is displayed as *Question 1 / 10*
 - [ ] The user selects an answer from the choices (once chosen cannot be changed), a message will displayed at the bottom to inform the user if the choice is correct or not

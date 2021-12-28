@@ -76,10 +76,6 @@ a:visited {
   text-align: center;
 }
 
-button {
-  text-decoration: none;
-}
-
 .choices {
   width: 100%;
 
@@ -95,6 +91,7 @@ button {
 .choice,
 .next {
   background-color: #fff;
+  color: inherit;
   border: 1px solid rgb(224, 223, 223);
   padding: 1rem;
   cursor: pointer;

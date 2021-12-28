@@ -2,6 +2,8 @@
 
 Note: most of the documentation is taken from the [Chingu Trivia](https://github.com/chingu-voyages/soloproject-tier1-chingu-trivia) project repo.
 
+This app is deployed at: https://chingu-trivia.netlify.app/
+
 ## Overview 
 
 This Chingu Trivia webpage allows users to answer 10 multiple-choice questions and display their scores after all 10 questions are finished. The questions are taken from the [Chingu Trivia repo](https://github.com/chingu-voyages/soloproject-tier1-chingu-trivia). This project uses **HTML**, **CSS**, and **JavaScript**.
@@ -28,6 +30,7 @@ This Chingu Trivia webpage allows users to answer 10 multiple-choice questions a
 
 ## How to use
 
+- [ ] Go to the app website
 - [ ] The first question is loaded, on top of the question the user's place is displayed as *Question 1 / 10*
 - [ ] The user selects an answer from the choices (once chosen cannot be changed), a message will displayed at the bottom to inform the user if the choice is correct or not
 - [ ] A *Next* botton will be displayed at the bottom for advancing to the next question, once advanced to the next question, user cannot go back
